@@ -1,3 +1,9 @@
+> [!WARNING]
+> **This fork is archived.** This is a fork of [Rahix/port-expander](https://github.com/Rahix/port-expander)
+> patched for `embedded-hal` 1.x compatibility (`embedded-hal-1` branch). It was used by
+> [`hestiia-rs`](https://github.com/hestiia-engineering/hestiia-rs), the PyO3 hardware bindings for
+> M9/M10 devices, which is now archived. Refer to the upstream repository for active development.
+
 `port-expander` [![crates.io page](https://img.shields.io/crates/v/port-expander.svg)](https://crates.io/crates/port-expander) [![docs.rs page](https://docs.rs/port-expander/badge.svg)](https://docs.rs/port-expander)
 ===============
 This is a crate providing a common abstraction for I²C port-expanders.  This
